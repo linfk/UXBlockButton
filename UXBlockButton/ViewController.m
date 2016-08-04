@@ -83,7 +83,7 @@
                                          normalImage:normalImg
                                     highlightedImage:highlightedImg
                                        disabledImage:nil
-                                               title:@"键盘"
+                                               title:@"上边图片下边文字"
                                            titleFont:[UIFont systemFontOfSize:12]
                                         onClickBlock:^(id sender) {
                                             UXBlockButton *btn = (UXBlockButton*)sender;
@@ -98,7 +98,7 @@
                                          normalImage:normalImg
                                     highlightedImage:highlightedImg
                                        disabledImage:nil
-                                               title:@"上"
+                                               title:@"上边文字下边图片"
                                            titleFont:[UIFont systemFontOfSize:20]
                                         onClickBlock:^(id sender) {
                                             UXBlockButton *btn = (UXBlockButton*)sender;
